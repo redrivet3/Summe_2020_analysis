@@ -233,7 +233,7 @@ void simpleAnaLC2(){
     float a0;           //used to calulate beam energy
     float a1;            //used to calulate beam energy
     float ebeam_cal;        //calculate beam energy
-    float ebeam_cal_pro;
+    float ebeam_cal_pro;    //
     float promass = db->GetParticle(2212)->Mass();
     float elmass = db->GetParticle(11)->Mass();
     //starts the check of the data, first 2 ifs not really neccessary 
